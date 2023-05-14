@@ -38,6 +38,9 @@ header {
 
     font-size: 16px;
     font-weight: 700;
+
+    position: sticky;
+    top: 0;
 }
 
 main {
@@ -48,15 +51,30 @@ main {
 
 
 
-
+.p-text {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
 
 .padding-section {
     padding: 4rem 2rem 2rem;
 }
 
+.padding-top {
+    padding-top: 3rem;
+}
+
+.subtitle {
+    font-size: 32px;
+    font-weight: bolder;
+    color: #fff;
+    text-align: center;
+}
+
 .title {
     font-size: 40px;
-    font-weight: bold;
+    font-weight: bolder;
     color: #fff;
     text-align: center;
 }
