@@ -50,8 +50,28 @@ main {
     height: 100vh;
 }
 
+footer {
+    height: 150px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #c3022f;
+}
+
 .align-self-center {
     align-self: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
 }
 
 .text-align-center {
@@ -145,7 +165,7 @@ a:hover {
 
 .cards {
     min-height: 208px;
-    width: 276px;
+    min-width: 265px;
 
     padding: 1.5rem 1rem;
 
@@ -153,6 +173,8 @@ a:hover {
     background-color: #323232;
 
     border-radius: .5rem;
+
+    margin: 2rem 1rem;
 }
 
 .cards > img {
@@ -160,4 +182,18 @@ a:hover {
     width: 100px;
 
     padding: .5rem;
+}
+
+.btn-angular {
+    padding: 2rem 4rem;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 4rem;
+    border: 0;
+
+    background-color: #444444;
+    color: #7fc9ff;
+
+   
+    box-shadow: 0px 2px 9px -1px rgba(221,230,243,0.76);
 }
