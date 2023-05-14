@@ -69,5 +69,16 @@ ul {
 }
 
 ul li {
-    padding-left: 1rem;
+    padding: .5rem .5rem;
+    border-radius: 2px; 
+}
+
+li:hover {
+    background-color: #3a6ebc;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
 }
