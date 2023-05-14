@@ -52,7 +52,9 @@ main {
 
 
 
-
+.width-50 {
+    width: 50%;
+}
 
 .p-text {
     font-size: 20px;
@@ -64,6 +66,10 @@ main {
 
 .padding-section {
     padding: 4rem 2rem 2rem;
+}
+
+.padding-text {
+    padding: .5rem 2rem;
 }
 
 .padding-top {
@@ -99,6 +105,10 @@ main {
     align-items: center;
 }
 
+.border-right {
+    border-right: 1px solid rgba(80,91,110,0.43);
+}
+
 ul {
     list-style: none;
 }
@@ -116,4 +126,9 @@ li:hover {
 a {
     text-decoration: none;
     color: #fff;
+}
+
+a:hover {
+    color: #77b7e4;
+    text-decoration: underline;
 }
