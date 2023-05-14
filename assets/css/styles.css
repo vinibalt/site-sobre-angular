@@ -50,15 +50,25 @@ main {
     height: 100vh;
 }
 
+.align-self-center {
+    align-self: center;
+}
 
+.text-align-center {
+    text-align: center;
+}
 
 .width-50 {
     width: 50%;
 }
 
-.p-text {
+.p-text-card {
+    font-size: 16px;
+}
+
+.p-text, .p-text-card {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 300;
     color: #fff;
 
     line-height: 2rem;
@@ -131,4 +141,23 @@ a {
 a:hover {
     color: #77b7e4;
     text-decoration: underline;
+}
+
+.cards {
+    min-height: 208px;
+    width: 276px;
+
+    padding: 1.5rem 1rem;
+
+    box-shadow: 0px 2px 7px 3px rgba(221,230,243,0.63);
+    background-color: #323232;
+
+    border-radius: .5rem;
+}
+
+.cards > img {
+    height: 100px;
+    width: 100px;
+
+    padding: .5rem;
 }
