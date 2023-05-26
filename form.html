@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="shortcut icon" href="./assets/img/angular.svg" type="image/x-icon">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            color: #fff;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        section {
+            min-height: 72vh;
+        }
+
+        header {
+            padding: 20px;
+        }
+
+        .logo-img img {
+            height: 50px;
+        }
+
+        .topo {
+            padding: 5rem 3rem;
+            text-align: center;
+            font-size: 36px;
+        }
+
+        .coluna {
+            float: left;
+            width: 50%;
+            padding: 15px;
+        }
+
+        .coluna h4 {
+            color: #fff;
+        }
+
+        form.coluna {
+            color: #333;
+            background-color: transparent;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        form.coluna label {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        form.coluna input[type="text"],
+        form.coluna input[type="email"],
+        form.coluna select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        form.coluna select {
+            margin-bottom: 30px;
+        }
+
+        form.coluna input[type="submit"] {
+            background-color: #c3022f;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+
+        }
+
+        .coluna ul {
+            margin-top: 0;
+            padding-left: 20px;
+        }
+
+        .coluna li {
+            margin-bottom: 10px;
+            list-style-type: disc;
+
+        }
+
+        .Enviar {
+            float: right;
+        }
+    </style>
+
+    <title>Newsletter</title>
+</head>
+
+<body>
+    <header class="row space-between">
+        <div class="logo-img">
+            <img src="./assets/img/logo-angular.png" alt="Logo Angular" height="50px">
+        </div>
+        <div>
+            <ul class="row">
+                <li><a href="./pagina-principal.html">INICIO</a></li>
+                <li>SOBRE</li>
+                <li>COMUNIDADE</li>
+                <li><a href="./form.html">NEWSLETTER</a></li>
+            </ul>
+        </div>
+    </header>
+    <section>
+        <div class="topo">
+            <h1>Assine nossa newsletter</h1>
+        </div>
+        <div class="row">
+            <form class="coluna">
+                <label for="campo_nome" style="color: #fff;">Nome:</label>
+                <input id="campo_nome" type="text" placeholder="Digite seu nome" required>
+
+                <label for="campo_email" style="color: #fff;">Email:</label>
+                <input id="campo_email" type="email" placeholder="Digite seu email" required>
+                <label for="finalidade" style="color: #fff;">Para que finalidade você usaria o Angular?</label>
+                <select id="finalidade" style="height: 40px;" name="finalidade">
+                    <option selected disabled value="">Selecione</option>
+                    <option value="estudo">Para estudos</option>
+                    <option value="trabalho">Para trabalho</option>
+                    <option value="diversão">Por diversão</option>
+                </select>
+                <input class="Enviar" type="submit" value="Enviar">
+            </form>
+            <div class="coluna">
+                <h2 class="info-container">O que você pode esperar da nossa newsletter</h2>
+                <br><br>
+                <ul>
+                    <li>Atualizações sobre versões e lançamentos</li>
+                    <li>Tutoriais e exemplos de código</li>
+                    <li>Dicas e truques</li>
+                    <li>Anúncios e oportunidades</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>© 2023 - Feito com 💙 por Vinicius Baltazar e Isabela Thiffanny na UCB</p>
+    </footer>
+</body>
+
+</html>
+
